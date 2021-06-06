@@ -1,0 +1,50 @@
+{{ define "main" }}
+
+<main>
+
+	Function tests:
+
+	<hr>
+	<!--Is 22 more than 8? <strong>{{ if gt 22 8}}Yes {{else}} No {{end}}</strong>-->
+	Is 22 more than 8? <strong>{{ cond (gt 22 8) "yes" "no" }}</strong>
+	<hr>
+	{{humanize "some-string-something"}}
+
+
+	<hr>
+	{{md5 "some-string-binary"}}
+
+	<hr>
+    <!-- create array from string-->
+	{{range (split "apple, grape, orange" ",")}}
+	{{ humanize . }}<br>
+	{{ end }}
+	<hr>
+	{{ with (.GetPage "/photos/hugo-moon") }}
+		This content is for the page {{ .Title }} by {{ .Params.Photoauthor}}
+	{{ end }}
+
+	<div class="post">
+		{{ partial "single/post-info.html" . }}
+		{{ partial "single/title.html" . }}
+
+		{{ partial "single/header.html" . }}
+
+		{{ .Content }}
+
+		{{ partial "single/footer.html" . }}
+	</div>
+
+	<div class="pagination">
+		{{- if .PrevPage }}
+		<a href="{{ .PrevPage.RelPermalink }}" class="left arrow">&#8592;</a>
+		{{- end }}
+		{{- if .NextPage }}
+		<a href="{{ .NextPage.RelPermalink }}" class="right arrow">&#8594;</a>
+		{{- end }}
+
+		<a href="#" class="top">Top</a>
+	</div>
+</main>
+
+{{ end }}

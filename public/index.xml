@@ -5,6 +5,54 @@
     <link>http://example.org/</link>
     <description>Recent content on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>Copyright 2021 StackAcademy</copyright>
+    <lastBuildDate>Sat, 05 Jun 2021 00:29:10 -0400</lastBuildDate><atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About</title>
+      <link>http://example.org/about/</link>
+      <pubDate>Sat, 05 Jun 2021 15:22:16 -0400</pubDate>
+      
+      <guid>http://example.org/about/</guid>
+      <description>About Jamsite It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using &amp;lsquo;Content here, content here&amp;rsquo;, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for &amp;lsquo;lorem ipsum&amp;rsquo; will uncover many web sites still in their infancy.</description>
+    </item>
+    
+    <item>
+      <title>Photo One</title>
+      <link>http://example.org/photos/photo-one/</link>
+      <pubDate>Sat, 05 Jun 2021 00:29:10 -0400</pubDate>
+      
+      <guid>http://example.org/photos/photo-one/</guid>
+      <description>Photo Heading Photo excerpt Photo Content</description>
+    </item>
+    
+    <item>
+      <title>Second Page</title>
+      <link>http://example.org/second-page/</link>
+      <pubDate>Sat, 05 Jun 2021 00:19:51 -0400</pubDate>
+      
+      <guid>http://example.org/second-page/</guid>
+      <description>Post Excerpt
+Main Heading post content&amp;hellip;</description>
+    </item>
+    
+    <item>
+      <title>Hugo Moon</title>
+      <link>http://example.org/photos/hugo-moon/</link>
+      <pubDate>Sat, 05 Jun 2021 00:02:27 -0400</pubDate>
+      
+      <guid>http://example.org/photos/hugo-moon/</guid>
+      <description>Hugo the Moon Հայերեն Shqip ‫العربية Български Català 中文简体 Hrvatski Česky Dansk Nederlands English Eesti Filipino Suomi Français ქართული Deutsch Ελληνικά ‫עברית हिन्दी Magyar Indonesia Italiano Latviski Lietuviškai македонски Melayu Norsk Polski Português Româna Pyccкий Српски Slovenčina Slovenščina Español Svenska ไทย Türkçe Українська Tiếng Việt Lorem Ipsum &amp;ldquo;Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit&amp;hellip;&amp;rdquo; &amp;ldquo;There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain&amp;hellip;&amp;rdquo; What is Lorem Ipsum?</description>
+    </item>
+    
+    <item>
+      <title>First Page</title>
+      <link>http://example.org/first-page/</link>
+      <pubDate>Fri, 04 Jun 2021 23:51:46 -0400</pubDate>
+      
+      <guid>http://example.org/first-page/</guid>
+      <description>First Jamsite Page Հայերեն Shqip ‫العربية Български Català 中文简体 Hrvatski Česky Dansk Nederlands English Eesti Filipino Suomi Français ქართული Deutsch Ελληνικά ‫עברית हिन्दी Magyar Indonesia Italiano Latviski Lietuviškai македонски Melayu Norsk Polski Português Româna Pyccкий Српски Slovenčina Slovenščina Español Svenska ไทย Türkçe Українська Tiếng Việt Lorem Ipsum &amp;ldquo;Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit&amp;hellip;&amp;rdquo; &amp;ldquo;There is no one who loves pain itself, who seeks after it and wants to have it, simply because it is pain&amp;hellip;&amp;rdquo; What is Lorem Ipsum?</description>
+    </item>
+    
   </channel>
 </rss>

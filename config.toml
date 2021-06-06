@@ -2,3 +2,5 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "tale"
+copyright = "Copyright 2021 StackAcademy"
+disableKinds = ["section"]
